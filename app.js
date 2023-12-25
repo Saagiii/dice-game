@@ -39,8 +39,8 @@ document.getElementById('current-0').textContent = "0";
 document.getElementById('current-1').textContent = "0";
 
 // Toglogchdiin neriig butsaaj gargah
-document.getElementById('name-0').textContent = 'сука1: Учрал';  // Player 1
-document.getElementById('name-1').textContent = 'сука2: Билгүүн';
+document.getElementById('name-0').textContent = 'Учрал';  // Player 1
+document.getElementById('name-1').textContent = 'Билгүүн';
 
 document.querySelector('.player-0-panel').classList.remove('winner');
 document.querySelector('.player-1-panel').classList.remove('winner');
