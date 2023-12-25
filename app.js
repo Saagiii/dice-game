@@ -39,8 +39,8 @@ document.getElementById('current-0').textContent = "0";
 document.getElementById('current-1').textContent = "0";
 
 // Toglogchdiin neriig butsaaj gargah
-document.getElementById('name-0').textContent = 'Player 1';
-document.getElementById('name-1').textContent = 'Player 2';
+document.getElementById('name-0').textContent = 'Yuki';  // Player 1
+document.getElementById('name-1').textContent = 'SaaGii';
 
 document.querySelector('.player-0-panel').classList.remove('winner');
 document.querySelector('.player-1-panel').classList.remove('winner');
@@ -75,7 +75,7 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
         switchToNextPlayer();
  }
    }else{
-    alert("Тоглоом дууссан байна. NEW GAME товчийг дарж шинээр эхлэнэ үү!");
+    alert("Тоглоом дууссан байна. NEW GAME товчийг дарж шинээр эхлэнэ үү бондоок оо!");
    }
 });
 // Hold towchnii event listener
@@ -88,7 +88,7 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
 document.getElementById('score-' + activePlayer).textContent = scores[activePlayer];
 
     // Ug toglogch hojson esehiig shalgah
-    if(scores[activePlayer] >= 100){
+    if(scores[activePlayer] >= 30){
         // Togloomiig duussan tolowt oruulna.
         isNewGame = false;
 
@@ -105,7 +105,7 @@ document.getElementById('score-' + activePlayer).textContent = scores[activePlay
         switchToNextPlayer()
     }
     }else{
-        alert("Тоглоом дууссан байна. NEW GAME товчийг дарж шинээр эхлэнэ үү!");
+        alert("Тоглоом дууссан байна. NEW GAME товчийг дарж шинээр эхлэнэ үү бондоок оо!");
     }
 });
 
